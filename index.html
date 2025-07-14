@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Curricular - Fonoaudiología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Malla Curricular Interactiva</h1>
+        <h2>Carrera de Fonoaudiología</h2>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <span id="progress-text">0% completado</span>
+        </div>
+    </header>
+
+    <div class="legend">
+        <div class="legend-item">
+            <div class="color-box fb"></div>
+            <span>Formación Básica (FB)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box fd"></div>
+            <span>Formación Disciplinaria (FD)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box ff"></div>
+            <span>Formación Fundamental (FF)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box dc"></div>
+            <span>Desempeño Integrado (DC)</span>
+        </div>
+        <div class="legend-item">
+            <div class="color-box mi"></div>
+            <span>Módulo de Integración (MI)</span>
+        </div>
+    </div>
+
+    <div class="grid-container" id="courses-grid">
+        <!-- Los cursos se generarán dinámicamente con JavaScript -->
+    </div>
+
+    <div class="controls">
+        <button id="reset-btn">Reiniciar Progreso</button>
+        <button id="complete-all-btn">Completar Todo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
